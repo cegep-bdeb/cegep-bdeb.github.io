@@ -13,14 +13,21 @@
 	<body>
        <marquee OnMouseover="this.stop()" OnMouseout="this.start()"> <div id="logo"><h1><a href="index.html">Bienvenue au Société</a> ...<a href="index.html">de developpement de </a>... <a href="index.html">logiciels</a> ... <a href="index.html">sites web</a> ... <a href="index.html"> securité informatique. </a></h1></div> </marquee>
            <script> 
-                               alert("Bonour Madame Najoua Espérant que vous avez bien!");
-                               alert("Ce travail resalisé par El ayachi Touzani, Imad Aagoubi et Kamal Maachi");
-                              if ( confirm( "Merci de  votre cours. voullez vous continuez?" ) ) {
-                                       index.html;
-                                    } else {
+                              
+                              if (confirm( "Bonjour, Merci Madame Najoua de  votre cours! voullez vous continuez?")) {
+                                              var iMyWidth;
+                                              var iMyHeight;
+                                              iMyWidth = (window.screen.width / 2) - (75 + 150);
+                                              iMyHeight = (window.screen.height / 2) - (100 + 50);
+                                            var win2 = window.open("", "DisplayWindow", "status=no,height=250,width=350,resizable=yes,left=" + iMyWidth + ",top=" + iMyHeight + ",screenX=" + iMyWidth + ",screenY=" + iMyHeight + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no");
+                                              win2.focus();
+                                        win2.document.write("<CENTER><br> Merci de saisir ton email pour recevoir toutes les nouvelles sur nos services.<hr><br>"+"<FORM NAME='Formulaire'><INPUT TYPE=text NAME='ZoneTexte' placeholder='Ton nom'>" +"<br><br><input type=email placeholder='Ton email' placeholder='Email'>"
+                                         +  "<br><br><input type=submit value=Envoyer onclick='window.close()'></FORM></CENTER>");
+                                         } else {
                                         close();
                                     }
-        </script>  
+          </script>  
+
 			<!-- Header -->
 				<div id="entete">
                     <audio src="mp3/m.mp3" controls style="height: 20px; margin: 2px 0 -20px 70px; padding-bottom:-10px;" ></audio>
