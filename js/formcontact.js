@@ -9,7 +9,8 @@ if ( email != "" && email != "" && message!="")
             {
             alert ("votre requête a été envoyée");
              alert ("merci de votre contact");
-            return false;
+            window.location = "index.html";
+            return true;
             }
             else
             {
