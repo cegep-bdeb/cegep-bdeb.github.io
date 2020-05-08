@@ -7,8 +7,7 @@ if ( email != "" && email != "" && message!="")
 { 
              if(inputText.value.match(mailformat))
             {
-            alert ("votre requête a été envoyée");
-             alert ("merci de votre contact");
+            alert ("votre requête a été envoyée, merci de votre contact");
             window.location = "index.html";
             return false;
             }
