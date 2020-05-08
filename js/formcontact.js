@@ -8,9 +8,7 @@ if ( email != "" && email != "" && message!="")
              if(inputText.value.match(mailformat))
             {
             alert ("votre requête a été envoyée, merci de votre contact");
-            window.location = "index.html";
-            return false;
-            }
+                    }
             else
             {
             alert("Entrer une adresse mail valide !");
