@@ -9,8 +9,7 @@ if ( email != "" && email != "" && message!="")
             {
             alert ("votre requête a été envoyée");
              alert ("merci de votre contact");
-            
-            return true;
+            return false;
             }
             else
             {
