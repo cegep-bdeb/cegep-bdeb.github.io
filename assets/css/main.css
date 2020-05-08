@@ -263,13 +263,15 @@ input, select, textarea {
 
 /* Banner */
 .nosclient {
+	 float: center;
 	border: 5px solid #30336b;
 	border-radius: 10px;
-	width: 26%;
+	width: 31%;
 	float: right;
-    line-height: 40px;
-    margin: 35px;
+    line-height: 18px;
+    margin: 5px;
    text-align: center;
+  
 }
 
 	
@@ -970,10 +972,17 @@ a:hover , a:active{
 	color: red;	
 }
 .phraragraphetrait{
-       border-left: 5px solid #ecf0f1;
-       padding: 0 0 0 1rem;
+     border-left: 5px solid #ecf0f1;
+     padding: 0 0 0 1rem;
+     -webkit-column-count:2; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2; /* Internet Explorer */
 }
-
+#ph{
+	-webkit-column-count:2; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2; /* Internet Explorer */
+}
 .contenu{
 	width: 100%;
 	width: 90%;
@@ -990,6 +999,11 @@ a:hover , a:active{
     width:80%;
     -webkit-border-radius: 5px;
 	-moz-border-radius: 10px;
+}
+#imgarticle1{
+	float:right;
+	margin-left: 10px;
+	border-radius: 10px;
 }
 .titrearticle{
     color: darkred;
