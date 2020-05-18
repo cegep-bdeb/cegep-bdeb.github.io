@@ -4,7 +4,7 @@ var username = document.getElementById("email").value;
 var password = document.getElementById("password").value;
 if ( username == "najoua.ghrieb@bdeb.qc.ca" && password == "najoua"){
 alert ("Connectez-vous avec succès");
-window.location = "bienvenue.html"; 
+window.location = "../pages/bienvenue.html"; 
 return false;
 }
 else{
